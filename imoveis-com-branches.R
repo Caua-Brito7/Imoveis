@@ -6,3 +6,6 @@ names(imoveis) <- trimws(names(imoveis))
 # Etapa 2: Gráficos
 
 # Etapa 3: Medidas
+mean(imoveis$imposto_anual)
+median(imoveis$imposto_anual)
+sd(imoveis$imposto_anual)

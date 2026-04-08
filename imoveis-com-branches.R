@@ -7,3 +7,6 @@ names(imoveis) <- trimws(names(imoveis))
 hist(imoveis$metragem, main="Histograma da Metragem", col="green")
 
 # Etapa 3: Medidas
+mean(imoveis$imposto_anual)
+median(imoveis$imposto_anual)
+sd(imoveis$imposto_anual)
